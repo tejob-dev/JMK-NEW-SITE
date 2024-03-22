@@ -41,3 +41,14 @@ body > div > section.team-section.about-page.sec-pad > div > div.three-item-caro
 body > div > section.news-style-two.sec-pad > div > div.row.clearfix > div.col-lg-8.col-md-6.col-sm-12.news-block > div > div.owl-stage-outer > div > div.owl-item.active > div > div > div > div > div.lower-box > h3{
     height: 8vh;
 }
+
+.support-widget ul{ margin: 0; padding: 0; }
+.support-widget ul>li {
+    padding: 0 0 8px 0;
+    position: relative;
+    color: white!important;
+}
+
+.support-widget ul>li>a {
+    color: white!important;
+}
