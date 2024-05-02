@@ -51,7 +51,7 @@
 ====================================================================
 
  ***/
-* {
+ * {
   margin:0px;
   padding:0px;
   border:none;
@@ -69,7 +69,7 @@
 
 
 body {
-  font-size:17px;
+  font-size: 14px;
   color:#75727b;
   line-height:28px;
   font-weight:400;
@@ -101,7 +101,7 @@ body {
 .auto-container{
   position:static;
   max-width:1200px;
-  padding:0px 15px;
+  padding: 0px 2px;
   margin:0 auto;
 }
 
@@ -368,12 +368,12 @@ img {
   display: inline-block;
   overflow: hidden;
   vertical-align: middle;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 15px;
+  line-height: 20px;
   font-weight: 600;
   font-family: 'Urbanist', sans-serif;
   text-align: center;
-  padding: 16px 40px;
+  padding: 12px 33px;
   text-transform: capitalize;
   border-radius: 35px 35px 0px 35px;
   z-index: 1;
@@ -554,8 +554,8 @@ img {
 .sec-title h2{
   position: relative;
   display: block;
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 26px;
+  line-height: 39px;
   font-weight: 600;
   margin: 0px;
 }
@@ -827,7 +827,7 @@ img {
 .header-top .social-links li a{
   position: relative;
   display: inline-block;
-  font-size: 18px;
+  font-size: 15px;
   color: #9ca4af;
 }
 
@@ -853,7 +853,7 @@ img {
 
 .header-top .social-links li h5{
   display: block;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 28px;
   color: #fff;
   font-weight: 600;
@@ -864,7 +864,7 @@ img {
 .header-upper{
   position: relative;
   background: #fff;
-  border-radius: 30px 30px 0px 0px;
+  /* border-radius: 30px 30px 0px 0px; */
   padding: 0px 50px;
 }
 
@@ -873,7 +873,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 22px 0px;
+  padding: 2px 0px;
   border-bottom: 1px solid #e7e3ee;
 }
 
@@ -941,7 +941,7 @@ img {
 }
 
 .header-upper .right-column .support-box .icon-box{
-  position: absolute;
+  position: initial;
   display: inline-block;
   left: 0px;
   top: 0px;
@@ -1363,9 +1363,9 @@ img {
   position:relative;
   display:block;
   text-align:center;
-  font-size:18px;
-  line-height:30px;
-  padding: 22px 0px;
+  font-size: 15px;
+  line-height: 26px;
+  padding: 10px 0px;
   padding-left: 25px;
   font-weight:600;
   font-family: 'Urbanist', sans-serif;
@@ -1407,7 +1407,7 @@ img {
   position:absolute;
   left: inherit;
   top:100%;
-  width:240px;
+  width:326px;
   margin-top: -20px;
   z-index:100;
   background: #fff;
@@ -2048,7 +2048,7 @@ div#mCSB_1_container{
   
 .banner-carousel .slide-item{
   position: relative;
-  padding: 159px 0px 170px 0px;
+  padding: 20px 0px 20px 0px;
 }
   
 .banner-carousel .slide-item:before{
@@ -2099,7 +2099,7 @@ div#mCSB_1_container{
 .banner-carousel .content-box h2{
   position: relative;
   display: block;
-  font-size: 100px;
+  font-size: 78px;
   line-height: 100px;
   font-weight: 600;
   color: #fff;
@@ -2205,7 +2205,7 @@ div#mCSB_1_container{
 .banner-carousel .content-box .lower-box{
   position: relative;
   display: block;
-  padding-left: 15px;
+  padding-left: 79px;
   opacity: 0;
   -webkit-transform: translateY(10px);
   -moz-transform: translateY(10px);
@@ -2238,10 +2238,10 @@ div#mCSB_1_container{
   display: inline-block;
   left: 0px;
   top: 8px;
-  width: 75px;
-  height: 75px;
-  line-height: 90px;
-  font-size: 50px;
+  width: 55px;
+  height: 55px;
+  line-height: 69px;
+  font-size: 34px;
   color: #fff;
   text-align: center;
   border-radius: 50% 50% 0px 50%;
@@ -2250,12 +2250,22 @@ div#mCSB_1_container{
 .banner-carousel .content-box .lower-box .text{
   position: relative;
   display: block;
+  font-size: 15px;
+  line-height: 30px;
+  color: #bdc3cb;
+  margin-bottom: 19px;
+  max-width: 360px;
+}
+
+/* .banner-carousel .content-box .lower-box .text{
+  position: relative;
+  display: block;
   font-size: 19px;
   line-height: 30px;
   color: #bdc3cb;
   margin-bottom: 31px;
   max-width: 360px;
-}
+} */
 
 .owl-carousel .owl-nav span{
   font-family: 'flaticon';
@@ -2427,9 +2437,9 @@ div#mCSB_1_container{
 }
 
 .about-section .image-box .circle-box .curved-circle{
-  left: 99px;
+  left: 92px;
   top: 15px;
-  transform: rotate(-43deg);
+  transform: rotate(-39deg);
 }
 
 .about-section .image-box .circle-box .curved-circle-2{
@@ -2441,13 +2451,13 @@ div#mCSB_1_container{
 .about-section .image-box .circle-box .curved-circle-3{
   right: 71px;
   top: 35px;
-  transform: rotate(49deg);
+  transform: rotate(48deg);
 }
 
 .about-section .image-box .circle-box .curved-circle-4{
   right: 100px;
   bottom: 7px;
-  transform: rotate(-222deg);
+  transform: rotate(-214deg);
 }
 
 .about-section .image-box .dot-box{
@@ -2509,8 +2519,17 @@ div#mCSB_1_container{
 
 .about-section .image-box .image-shape .shape-3{
   position: absolute;
-  right: -47px;
-  bottom: -60px;
+  left: -47px;
+  bottom: -45px;
+  width: 254px;
+  height: 254px;
+  background-repeat: no-repeat;
+}
+
+.about-section .image-box .image-shape .shape-4{
+  position: absolute;
+  right: -40px;
+  bottom: -45px;
   width: 254px;
   height: 254px;
   background-repeat: no-repeat;
@@ -2728,10 +2747,11 @@ div#mCSB_1_container{
 
 .video-section .video-inner{
   position: relative;
-  padding: 293px 0px 200px 0px;
+  padding: 195px 0px 208px 0px;
   border-radius: 30px;
   overflow: hidden;
   text-align: center;
+  margin: 0px 226px;
 }
 
 .video-section .video-inner .bg-layer{
@@ -2870,8 +2890,8 @@ div#mCSB_1_container{
 .service-block-one .inner-box .icon-box{
   position: relative;
   display: inline-block;
-  font-size: 70px;
-  line-height: 70px;
+  font-size: 48px;
+  line-height: 39px;
   padding-right: 44px;
   margin-bottom: 34px;
   z-index: 1;
@@ -2925,9 +2945,9 @@ div#mCSB_1_container{
 .service-block-one .inner-box h3{
   display: block;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 32px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 11px;
 }
 
 .service-block-one .inner-box h3 a{
@@ -3225,7 +3245,7 @@ div#mCSB_1_container{
 
 .growth-block-one .inner-box h3{
   display: block;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 34px;
   font-weight: 600;
   margin-bottom: 14px;
@@ -3243,14 +3263,14 @@ div#mCSB_1_container{
 
 .growth-block-one .inner-box p{
   display: block;
-  margin-bottom: 42px;
+  margin-bottom: 28px;
 }
 
 .growth-block-one .inner-box .icon-box{
   position: relative;
   display: inline-block;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 36px;
+  line-height: 36px;
   z-index: 1;
 }
 
@@ -3262,7 +3282,8 @@ div#mCSB_1_container{
   height: 60px;
   border-radius: 50% 50% 0px 50%;
   bottom: 8px;
-  right: -30px;
+  right: -11px;
+  top: -12px;
   z-index: -1;
 }
 
@@ -3275,8 +3296,8 @@ div#mCSB_1_container{
 .growth-block-one .inner-box .link-box a{
   position: relative;
   display: inline-block;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 13px;
+  line-height: 22px;
   font-weight: 600;
   color: #272e39;
 }
@@ -3365,7 +3386,7 @@ div#mCSB_1_container{
 
 .clients-section{
   position: relative;
-  padding: 100px 0px 94px 0px;
+  padding: 11px 0px 2px 0px;
 }
 
 .clients-section .clients-logo{
@@ -3848,7 +3869,7 @@ div#mCSB_1_container{
   color: #fff;
   text-align: center;
   border-radius: 50% 50% 0px 50%;
-  background: rgba(108, 78, 167, 0.90);
+  background: rgb(0 86 128);
   z-index: 1;
 }
 
@@ -3884,7 +3905,7 @@ div#mCSB_1_container{
 .working-block-one .inner-box .lower-content h2{
   position: relative;
   display: block;
-  font-size: 72px;
+  font-size: 40px;
   line-height: 80px;
   color: #f4f1fa;
   font-weight: 600;
@@ -3897,7 +3918,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
-  top: -17px;
+  top: -8px;
   transition: all 500ms ease;
 }
 
@@ -4448,7 +4469,7 @@ div#mCSB_1_container{
 .news-block-one .inner-box h3{
   position: relative;
   display: block;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 30px;
   font-weight: 600;
   margin-bottom: 16px;
@@ -4466,7 +4487,7 @@ div#mCSB_1_container{
 .news-block-one .inner-box .link a{
   position: relative;
   display: inline-block;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 28px;
   color: #272e39;
   font-weight: 600;
@@ -4547,7 +4568,7 @@ div#mCSB_1_container{
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 36px;
+  margin-bottom: 19px;
 }
 
 .testimonial-section .content-box .inner-box .single-item{
@@ -4589,8 +4610,8 @@ div#mCSB_1_container{
 .testimonial-section .content-box .link a{
   position: relative;
   display: inline-block;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 15px;
+  line-height: 15px;
   font-weight: 600;
   color: #fff;
 }
@@ -4682,7 +4703,7 @@ div#mCSB_1_container{
 
 .testimonial-block-one .inner-box p{
   display: block;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 30px;
   font-family: 'Urbanist', sans-serif;
   font-weight: 500;
@@ -5726,7 +5747,7 @@ div#mCSB_1_container{
 }
 
 .banner-style-two .banner-carousel .slide-item{
-  padding: 153px 0px 160px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .banner-style-two .banner-carousel .slide-item:before{
@@ -16053,36 +16074,4 @@ div#mCSB_1_container{
   position: absolute;
   left: 70px;
   bottom: 0px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}6+
