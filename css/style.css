@@ -294,7 +294,7 @@ h1,h2,h3,h4,h5,h6{
   border-top-color: rgba(255, 255, 255, 0.5); 
 }
 
-/* AnimaciÃ³n del preloader */
+/* AnimaciÃƒÂ³n del preloader */
 @keyframes spinner {
   to {
     transform: rotateZ(360deg);
@@ -774,7 +774,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 11px 0px;
+  padding: 5px 0px;
 }
 
 .header-top .info-list li{
@@ -1364,16 +1364,17 @@ img {
   position:relative;
   display:block;
   text-align:center;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 26px;
   padding: 10px 0px;
   padding-left: 25px;
-  font-weight:600;
+  font-weight: 700;
   font-family: 'Urbanist', sans-serif;
   opacity:1;
   color: #272e39;
   z-index:1;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  /* text-transform: capitalize; */
   -webkit-transition:all 500ms ease;
   -moz-transition:all 500ms ease;
   -ms-transition:all 500ms ease;
@@ -1461,7 +1462,7 @@ img {
   display:block;
   line-height:24px;
   font-weight:400;
-  font-size:17px;
+  font-size: 14px;
   font-family: 'Urbanist', sans-serif;
   color:#75727b;
   text-align: left;
@@ -1563,7 +1564,7 @@ img {
 
 .main-menu .navigation > li > ul > li > ul:before{
   position: absolute;
-  content: '';
+  /* content: ''; */
   left: -10px;
   top: 0px;
   width: 10px;
@@ -1590,8 +1591,8 @@ img {
   display:block;
   line-height:24px;
   font-weight:400;
-  font-size:17px;
-  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  font-family: 'Urbanist', sans-serif;
   color:#75727b;
   text-align: left;
   padding: 14px 0px;
@@ -1614,7 +1615,7 @@ img {
 
 .main-menu .navigation > li > ul > li > ul > li > a:before{
   position: absolute;
-  content: '';
+  /* content: ''; */
   background-image: url(../img/icon-1.png);
   width: 11px;
   height: 16px;
@@ -2556,7 +2557,7 @@ div#mCSB_1_container{
   font-size: 16px;
   line-height: 28px;
   font-family: 'Urbanist', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: #272e39;
   padding-left: 0px;
   margin-bottom: 6px;
@@ -16080,3 +16081,24 @@ div#mCSB_1_container{
   left: 70px;
   bottom: 0px;
 }
+
+/* CUSTOMM CSS */
+
+body > div > header > div.sticky-header > div > div > div.menu-right-content.right-column > div.phone > h3,
+body > div > header > div.header-lower > div > div > div.menu-right-content.right-column > div.phone > h3 {
+  display: block;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+body > div > header > div.sticky-header > div > div > div.menu-right-content.right-column > *,body > div > header > div.header-lower > div > div > div.menu-right-content.right-column > *{
+    padding: 0px 8px;
+}
+
+body > div > header > div.sticky-header > div > div > div.menu-right-content.right-column > div.phone > h3 > a, body > div > header > div.header-lower > div > div > div.menu-right-content.right-column > div.phone > h3 > a{
+  display: inline-block;
+  color: #75727b;
+}
+
+/* END CUSTOM CSS */
